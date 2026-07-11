@@ -1,4 +1,4 @@
-namespace Kea
+﻿namespace Kea
 {
     partial class Main
     {
