@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,8 +20,11 @@ namespace Kea.CommonFiles
 		
 		public const string naverWebtoonAPIBaseUrl = "https://global.apis.naver.com/lineWebtoon";
 
-        //Brand-new 2026 User-Agent
-        public const string spoofedUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36";
+        //Brand-new 2026 Chrome User-Agent
+        //public const string spoofedUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36";
+
+        //Brand-new 2026 Firefox User-Agent
+        public const string spoofedUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0";
 
     }
 }
