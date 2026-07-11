@@ -1,4 +1,4 @@
-﻿namespace Kea
+namespace Kea
 {
     partial class Main
     {
@@ -34,7 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.URLTextbox = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.collerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitBtn = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.startBtn = new System.Windows.Forms.Button();
@@ -115,16 +115,16 @@
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.collerToolStripMenuItem});
+            this.pasteToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(144, 40);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(241, 71);
             // 
-            // collerToolStripMenuItem
+            // pasteToolStripMenuItem
             // 
-            this.collerToolStripMenuItem.Name = "collerToolStripMenuItem";
-            this.collerToolStripMenuItem.Size = new System.Drawing.Size(143, 36);
-            this.collerToolStripMenuItem.Text = "Coller";
-            this.collerToolStripMenuItem.Click += new System.EventHandler(this.collerToolStripMenuItem_Click);
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(240, 34);
+            this.pasteToolStripMenuItem.Text = "Paste";
+            this.pasteToolStripMenuItem.Click += new System.EventHandler(this.collerToolStripMenuItem_Click);
             // 
             // exitBtn
             // 
@@ -234,7 +234,6 @@
             this.titleTranslationLanguageCode,
             this.titleTranslationTeamVersion,
             this.titleUrl});
-            this.QueueGrid.Cursor = System.Windows.Forms.Cursors.Default;
             this.QueueGrid.GridColor = System.Drawing.SystemColors.ControlDarkDark;
             this.QueueGrid.Location = new System.Drawing.Point(18, 340);
             this.QueueGrid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -484,7 +483,6 @@
             // helpBtn
             // 
             this.helpBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(193)))), ((int)(((byte)(185)))));
-            this.helpBtn.Cursor = System.Windows.Forms.Cursors.Default;
             this.helpBtn.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.helpBtn.FlatAppearance.BorderSize = 0;
             this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -636,7 +634,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn titleName;
         private System.Windows.Forms.DataGridViewTextBoxColumn titleNo;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem collerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
     }
 }
 
